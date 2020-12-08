@@ -21,8 +21,6 @@ Maintained by <b>eHpo</b>
 
 4. 打开Loon的MITM开关 - 证书管理 - 安装CA证书；然后到系统设置 - 已下载描述文件 - 安装；最后系统设置 - 通用 - 关于本机 - 证书信任设置，信任刚才安装的证书
 
-另提供了一个只更新 hostname 的 [快捷指令](https://www.icloud.com/shortcuts/f9fa9324aec34011825c4ec6006bec00) ，使用方法为在配置中选择导出到 `Loon hostname 更新` ，然后等待快捷指令操作完成。
-
 > 更多支持请查看 [Loon官方说明](https://github.com/Loon0x00/LoonManual)
 
 ---
@@ -85,14 +83,6 @@ https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/GlobalMedia.
 ```
 https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Domestic.list
 https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Global.list
-```
-
-### Region.list
-
-用于修正规则，包含 LAN、GeoIP,CN
-
-```
-https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Region.list
 ```
 
 ### ChinaMedia.list

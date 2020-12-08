@@ -154,54 +154,6 @@ IP-CIDR,211.161.101.106/32,no-resolve
 IP-CIDR,220.115.251.25/32,no-resolve
 IP-CIDR,222.73.156.235/32,no-resolve
 
-# Analytics 数据收集
-# > Ali
-DOMAIN,acs4baichuan.m.taobao.com
-DOMAIN,adash.m.taobao.com
-DOMAIN,adashbc.m.taobao.com
-DOMAIN,adashbc.ut.taobao.com
-DOMAIN,adashx.m.taobao.com
-DOMAIN,adashxgc.ut.taobao.com
-DOMAIN,agoodm.m.taobao.com
-DOMAIN,ai.m.taobao.com
-DOMAIN,ai.taobao.com
-DOMAIN,api.waptest.taobao.com
-DOMAIN,apoll.m.taobao.com
-DOMAIN,c-adash.m.taobao.com
-DOMAIN,h-adashx.ut.taobao.com
-DOMAIN,m-adash.m.taobao.com
-DOMAIN,nbsdk-baichuan.taobao.com
-DOMAIN,pics.taobaocdn.com
-DOMAIN,pindao.huoban.taobao.com
-DOMAIN,re.m.taobao.com
-DOMAIN,re.taobao.com
-DOMAIN,rj.m.taobao.com
-DOMAIN,sdkinit.taobao.com
-DOMAIN,show.re.taobao.com
-DOMAIN,simaba.taobao.com
-DOMAIN,strip.taobaocdn.com
-DOMAIN,temai.taobao.com
-DOMAIN,tunion-api.m.taobao.com
-DOMAIN,unitacs.m.taobao.com
-DOMAIN,w.m.taobao.com
-# >> Umeng
-DOMAIN-SUFFIX,umeng.com
-DOMAIN-SUFFIX,umengcloud.com
-DOMAIN-SUFFIX,umsns.com
-# > Appsflyer
-DOMAIN-SUFFIX,appsflyer.com
-# > Baidu
-DOMAIN-SUFFIX,pos.baidu.com
-DOMAIN,hm.baidu.com
-DOMAIN,hpd.baidu.com
-# > crashlytics
-DOMAIN-SUFFIX,crashlytics.com
-# > Tencent
-DOMAIN,ios.bugly.qq.com
-DOMAIN,pingma.qq.com
-# > Other
-DOMAIN-SUFFIX,mob.com
-
 # Advertising 广告
 # > General
 DOMAIN-KEYWORD,adservice
@@ -286,7 +238,6 @@ DOMAIN-SUFFIX,smartadserver.com
 DOMAIN-SUFFIX,smartnews-ads.com
 DOMAIN-SUFFIX,supersonic.com
 DOMAIN-SUFFIX,supersonicads.com
-DOMAIN-SUFFIX,tagtic.cn
 DOMAIN-SUFFIX,tanv.com
 DOMAIN-SUFFIX,tanx.com
 DOMAIN-SUFFIX,tapjoy.com
@@ -325,6 +276,7 @@ DOMAIN,adv.bandi.so
 DOMAIN,app-ad.variflight.com
 DOMAIN,appnext-a.akamaihd.net
 DOMAIN,appnext.hs.llnwd.net
+DOMAIN,g1.tagtic.cn
 DOMAIN,ggs.myzaker.com
 DOMAIN,itad.linetv.tw
 DOMAIN,ja.chushou.tv
@@ -454,6 +406,8 @@ DOMAIN,adcdn.hpplay.cn
 DOMAIN,adeng.hpplay.cn
 DOMAIN,rp.hpplay.cn
 # (M)
+# > 美团
+DOMAIN,flowplus.meituan.net
 # > MI
 DOMAIN-SUFFIX,ad.intl.xiaomi.com
 DOMAIN-SUFFIX,ad.xiaomi.com
@@ -516,19 +470,32 @@ DOMAIN,v2.reachmax.cn
 # (T)
 # > Tencent
 DOMAIN-SUFFIX,e.qq.com
-DOMAIN-SUFFIX,gdt.qq.com
 DOMAIN-SUFFIX,l.qq.com
 DOMAIN,adsmind.apdcdn.tc.qq.com
 DOMAIN,adsmind.gdtimg.com
 DOMAIN,adsmind.tc.qq.com
 DOMAIN,btrace.qq.com
+DOMAIN,c.gdt.qq.com
+DOMAIN,c.gdt.qq.com
+DOMAIN,canvas.gdt.qq.com
+DOMAIN,d.gdt.qq.com
+DOMAIN,i.gdt.qq.com
+DOMAIN,mi.gdt.qq.com
 DOMAIN,pgdt.gtimg.cn
 DOMAIN,pgdt.gtimg.com
 DOMAIN,pgdt.ugdtimg.com
+DOMAIN,q.i.gdt.qq.com
+DOMAIN,rm.gdt.qq.com
+DOMAIN,s.gdt.qq.com
 DOMAIN,splashqqlive.gtimg.com
+DOMAIN,t.gdt.qq.com
+DOMAIN,v.gdt.qq.com
+DOMAIN,v2.gdt.qq.com
 DOMAIN,wa.gtimg.com
+DOMAIN,win.gdt.qq.com
 DOMAIN,wxsnsdy.wxs.qq.com
 DOMAIN,wxsnsdythumb.wxs.qq.com
+DOMAIN,xc.gdt.qq.com
 # >> 体育
 DOMAIN,dp3.qq.com
 DOMAIN,lives.l.qq.com
